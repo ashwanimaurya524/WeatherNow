@@ -4,6 +4,14 @@ WeatherNow is a simple and responsive weather application built using **HTML, CS
 
 The project uses the **Open-Meteo API**, which provides weather data without requiring an API key.
 
+## 🌐 Live Demo
+
+👉 **[Render Live Demo](https://weathernow-dad2.onrender.com/)**
+
+👉 **[GitHub Pages Demo](https://ashwanimaurya524.github.io/WeatherNow/)**
+
+👉 **[GitHub Repository](https://github.com/ashwanimaurya524/WeatherNow)**
+
 ## 🚀 Features
 
 * 🔎 Search weather by city name
@@ -25,6 +33,8 @@ The project uses the **Open-Meteo API**, which provides weather data without req
 * **CSS3** – Styling and responsive design
 * **JavaScript** – Weather functionality and API handling
 * **Open-Meteo API** – Weather and location data
+* **Git & GitHub** – Version control and source code
+* **Render / GitHub Pages** – Deployment
 
 ## 📂 Project Structure
 
@@ -42,7 +52,7 @@ WeatherNow/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/ashwanimaurya524/WeatherNow.git
 ```
 
 ### 2. Open the project
@@ -72,34 +82,35 @@ The project does not require an API key.
 
 The application uses:
 
-* Open-Meteo Geocoding API → To find the latitude and longitude of a city
-* Open-Meteo Forecast API → To get current weather and forecast information
+* **Open-Meteo Geocoding API** → Finds the latitude and longitude of a city
+* **Open-Meteo Forecast API** → Provides current weather and forecast information
 
-## 📸 Application
+## 📸 About the Application
 
-The application provides a simple interface where users can:
+WeatherNow provides a simple interface where users can:
 
 1. Enter a city name.
 2. Click **Search**.
-3. View current weather information.
-4. View the 7-day forecast.
-
-Users can also click **Use My Location** to get weather information based on their current location.
+3. View the current weather.
+4. View humidity, wind speed, pressure, and visibility.
+5. Check the 7-day forecast.
+6. Use their current location to get local weather information.
 
 ## 🎯 What I Learned
 
 While developing this project, I practiced:
 
-* Working with HTML and CSS
+* HTML and CSS
 * JavaScript DOM manipulation
 * JavaScript `fetch()`
-* Using `async` and `await`
+* `async` and `await`
 * Working with JSON data
 * Calling REST APIs
 * Browser Geolocation API
-* Handling errors
-* Creating responsive layouts
-* Working with Git and GitHub
+* Error handling
+* Responsive web design
+* Git and GitHub
+* Website deployment
 
 ## 🔮 Future Improvements
 
