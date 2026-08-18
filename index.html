@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WeatherNow</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header>
+            <h1>🌤️ WeatherNow</h1>
+            <p>Check the current weather of any city</p>
+        </header>
+
+
+        <!-- Search Section -->
+        <section class="search-section">
+
+            <form id="searchForm">
+
+                <input
+                    type="text"
+                    id="cityInput"
+                    placeholder="Enter city name..."
+                    required
+                >
+
+                <button type="submit">
+                    Search
+                </button>
+
+            </form>
+
+
+            <button id="locationBtn" class="location-btn">
+                📍 Use My Location
+            </button>
+
+
+            <p id="message"></p>
+
+        </section>
+
+
+        <!-- Current Weather -->
+        <section id="weatherBox" class="weather-box hidden">
+
+            <div class="current-weather">
+
+                <div class="weather-heading">
+
+                    <h2 id="cityName">
+                        Delhi
+                    </h2>
+
+                    <p id="date">
+                        Today
+                    </p>
+
+                </div>
+
+
+                <div class="main-weather">
+
+                    <div id="weatherIcon" class="weather-icon">
+                        ☀️
+                    </div>
+
+                    <div>
+
+                        <span id="temperature" class="temperature">
+                            --
+                        </span>
+
+                        <span class="degree">
+                            °C
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <h3 id="weatherDescription">
+                    Clear Sky
+                </h3>
+
+
+                <p>
+                    Feels like
+                    <span id="feelsLike">--</span>°C
+                </p>
+
+            </div>
+
+
+            <!-- Weather Details -->
+            <div class="weather-details">
+
+                <div class="detail-card">
+
+                    <span>💧</span>
+
+                    <p>
+                        Humidity
+                    </p>
+
+                    <strong id="humidity">
+                        --%
+                    </strong>
+
+                </div>
+
+
+                <div class="detail-card">
+
+                    <span>💨</span>
+
+                    <p>
+                        Wind Speed
+                    </p>
+
+                    <strong id="wind">
+                        -- km/h
+                    </strong>
+
+                </div>
+
+
+                <div class="detail-card">
+
+                    <span>🌡️</span>
+
+                    <p>
+                        Pressure
+                    </p>
+
+                    <strong id="pressure">
+                        -- hPa
+                    </strong>
+
+                </div>
+
+
+                <div class="detail-card">
+
+                    <span>👁️</span>
+
+                    <p>
+                        Visibility
+                    </p>
+
+                    <strong id="visibility">
+                        -- km
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- 7 Day Forecast -->
+        <section id="forecastSection" class="forecast-section hidden">
+
+            <h2>
+                7-Day Forecast
+            </h2>
+
+            <div id="forecast" class="forecast-container">
+            </div>
+
+        </section>
+
+
+        <!-- Welcome Section -->
+        <section id="welcome" class="welcome">
+
+            <div>
+                🌦️
+            </div>
+
+            <h2>
+                Welcome to WeatherNow
+            </h2>
+
+            <p>
+                Search for a city to see its weather information.
+            </p>
+
+        </section>
+
+
+        <!-- Footer -->
+        <footer>
+
+
+        <p>
+            &copy; 2025 Ashwani Maurya. All rights reserved.
+        </p>
+                
+            
+
+        </footer>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
